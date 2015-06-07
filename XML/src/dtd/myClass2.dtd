@@ -1,0 +1,13 @@
+<!ELEMENT 班级 (学生*)>
+<!ENTITY % myname "名字">
+<!ELEMENT 学生 (%myname;,介绍,年龄)>
+<!ATTLIST 学生 
+   地址 CDATA #FIXED "北京"
+   学号 ID #REQUIRED
+   大哥 IDREFS #REQUIRED
+   性别 (男|女) #REQUIRED
+>
+<!ELEMENT %myname; (#PCDATA)>
+<!ELEMENT 年龄 (#PCDATA)>
+<!ELEMENT 介绍  (#PCDATA)>
+<!ENTITY mycopy "我的公司版权">
