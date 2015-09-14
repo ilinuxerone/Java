@@ -1,0 +1,116 @@
+Java RMI:
+一：
+JAVA RMI？.
+Java RMI 是在网络分布式系统中进程间通信的一种方式，采用java的序列化协议进行编解码操作。它与RPC的优势是可以直接远程调用服务器中的
+对象，这个对象封装了一些客户端需要的服务接口。
+
+二.RMI数据流程
+研究任何一种协议，我们需要从以下方面来分析：
+1.协议数据传输 单元
+2.数据的发送流
+3.数据的接收流
+4.使用底层的协议服务等
+这里以RMI为例：
+1.Object Stream是RMI处理单元，RMI最终请求的网络中的一个远程服务对象
+2.发送流：
+  客户端封装 请求对象-->stub----> 序列化----->TCPsocket层-....-->
+3.socket--->skeleton---反序列化------>返回服务对象的引用
+用一个图来描述数据流
+------               --------
+|客户机|               |服务器  |
+--------             -------- 
+   |                    |
+  stub               skeleton
+   |					|
+ 远程引用层------------远程引用层
+   |                    |
+   传输层 ----------------传输层
+   
+三：RMI实现
+1.Remote接口
+  该接口申明了可以从远程java虚拟机中调用的方法集合。该接口需要满足一下要求：
+  1)远程接口需要直接或者间接实现Remote接口，且必须申明为public，除非客户端与远程接口位于同一包中。
+  2)声明时需要抛出RemoteException异常
+  3)远程方法申明中，作为参数或者返回值声明的远程对象必须申明为远程接口，而非该接口的实现类。
+2.RemoteObject抽象类
+   该类实现Remote接口和序列化Serializable接口，提供RMI服务器函数。
+3.LocateRegistry类
+  用于获取特定主机的远程对象注册服务器程序的引用，或者创建能在特定端口接收调用的远程对象注册程序。
+服务器端：向其他客户机提供远程对象服务
+四:两种发布RMI服务的方式
+1）RMI
+采用JMI原生的发布协议，可以使用Registry和Naming这两个接口。
+使用Registry接口时，可以直接通过服务名进行bind，RMI内部会把服务名封装成rmi://ip:port/servicename这种形式。
+public class Server {
+	public static void main(String[] args){
+		try {
+			DemoService service = new DemoServiceImpl("RMIService");                        
+             //指定端口
+			Registry registry = LocateRegistry.createRegistry(8888); 
+             // 注册服务
+			registry.bind("demoservice",service);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println("DemoService is running at Server");
+	}
+}
+采用Naming工具类时，需要制定完整的URI方式的服务名称
+public class Server {
+	public static void main(String[] args){
+		try {
+			DemoService service = new DemoServiceImpl("ITer_ZC");
+              // 指定端口
+			LocateRegistry.createRegistry(8888); 
+               //完整的URI方式的服务名称
+		        Naming.bind("rmi://10.2.43.50:8888/demoservice",service);  
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println("DemoService is running at Server");
+	}
+}
+2）JNDI
+采用JNDI的方式来发布RMI服务，需要指定完整的URI方式的服务名称
+public class Server {
+	public static void main(String[] args){
+		try {
+			DemoService service = new DemoServiceImpl("ITer_ZC");
+			Registry registry = LocateRegistry.createRegistry(8888); 
+			Context nameContext = new InitialContext();
+			nameContext.rebind("rmi://10.2.43.50:8888/demoservice", service);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println("DemoService is running at Server");
+	}
+}
+客户端引用RMI服务时，也可以采用两种方式来寻找服务，一种是RMI本身的类，一种是JNDI接口的类。
+采用RMI本身的类来引用RMI服务
+public class Client {  
+    public static void main(String[] args){  
+        String url = "rmi://10.2.43.50:8888/demoservice";  
+        try {  
+            DemoService service = (DemoService)Naming.lookup(url);  
+            System.out.println(service.sayHi());  
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+          
+    }  
+}  
+
+采用JNDI接口来引用RMI服务
+public class Client {  
+    public static void main(String[] args){  
+        String url = "rmi://10.2.43.50:8888/demoservice";  
+        Context nameContext;  
+        try {  
+            nameContext = new InitialContext();  
+            DemoService service = (DemoService)nameContext.lookup(url);  
+            System.out.println(service.sayHi());  
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+    }  
+}  
