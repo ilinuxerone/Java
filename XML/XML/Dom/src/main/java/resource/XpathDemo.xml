@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AAA>
+	<BBB id="b1">
+		<CCC>
+			<KKK sex="male" age="10">k2</KKK>
+			
+		</CCC>
+		<CCC>
+			<KKK sex="female" age="21">k1</KKK>
+		</CCC>
+	</BBB>
+	<BBB id="b2" />
+	<BBB name="bbb" />
+	<BBB >test</BBB>
+</AAA> 
+     
