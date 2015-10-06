@@ -1,4 +1,4 @@
-package current;
+package cocurrent;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;

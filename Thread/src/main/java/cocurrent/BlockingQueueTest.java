@@ -1,4 +1,4 @@
-package current;
+package cocurrent;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
