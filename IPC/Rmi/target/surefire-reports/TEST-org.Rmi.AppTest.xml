@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.112" errors="0" skipped="0" tests="1" name="org.Rmi.AppTest">
+<testsuite failures="0" time="0.047" errors="0" skipped="0" tests="1" name="org.Rmi.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\workspace\IPC\Rmi"/>
+    <property name="user.dir" value="E:\GitHub\MyGitHub\Java\IPC"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2955046598299727947.tmp"/>
+    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6206428291707685621.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Common Files\NetSarang;D:\Oracal11gR2\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\bin;%CATALINA_HOME%\lib;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\jsp-api.jar;%CATALINA_HOME%\bin;C:\Program Files\Java\jdk1.7.0_45\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_45\lib\tools.jar;D:\Program Files\Rational\common;E:\software\android-sdk\sdk\platform-tools;E:\software\android-sdk\sdk\tools;C:\Program Files\GitExtensions\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\apache-maven-3.0.4\bin;D:\Program Files\nexus-2.4-bundle\nexus-2.4.0-09\bin;C:\Program Files\StormII\Codec;C:\Program Files\StormII;D:\Program Files\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
