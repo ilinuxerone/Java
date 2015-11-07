@@ -1,0 +1,31 @@
+1.网络
+  将不同区域的计算机互联在一起。 
+ 分类： 局域网 城域网 互联网
+2.IP地址
+   标示网络中的计算机节点
+3.端口号
+   标示计算机的应用程序 
+   0~1024 预留端口号
+   1024~65535可使用端口号 
+4.URL统计资源定位  URI统一资源
+5.数据传输
+ 1.协议
+   TCP/UDP
+ 2.协议处理单元 TPU  
+ 3.封装和拆解  
+
+Java网络编程中涉及的类
+1.InetAddress  封装IP及DNS
+  InetSocketAddress
+  在InetAddress基础之上又封装了端口
+  
+2.URL
+URI标示一个资源
+URL统一资源定位，一种具体的资源
+由4部分组成：协议、存放资源的主机 端口号 和资源文件名 
+3.TCP：Socket ServerSocket
+  UDP：DataGramPacket DataGramSocket
+4.底层传输单元是数据流  
+
+
+
