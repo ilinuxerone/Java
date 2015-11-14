@@ -21,7 +21,7 @@ import java.net.Socket;
  * @author Administrator
  * 
  */
-public class TcpEchoServ {
+public class TcpEchoServ01 {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket socket = null;

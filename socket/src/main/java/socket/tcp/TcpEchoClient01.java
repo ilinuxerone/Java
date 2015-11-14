@@ -18,7 +18,7 @@ import java.net.UnknownHostException;
  * @author Administrator
  * 
  */
-public class TcpEchoClient {
+public class TcpEchoClient01 {
 
 	public static void main(String[] args) {
 		String request = null;
