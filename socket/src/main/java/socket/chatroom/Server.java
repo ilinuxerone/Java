@@ -87,13 +87,27 @@ public class Server {
 
 		public void sendOthers(String msg)
 		{
-			for (MyChannel other : container)
-			{
-				if (this == other)
+			String name;
+			String content;
+			
+			if (msg.startsWith("@") && (msg.indexOf(":") > -1)) {
+				name = msg.substring(1, msg.indexOf(":"));
+				content = msg.substring(msg.indexOf(":") + 1);
+				for (MyChannel other : container)
 				{
-					continue;
+					if (!name.equals(other.name))
+					{
+						continue;
+					}
+					other.send(this.name + "悄悄对您说：" + content);
 				}
-				other.send(msg);
+			}else {
+				for (MyChannel other : container) {
+					if (this == other) {
+						continue;
+					}
+					other.send(other.name + "对所有人说： " + msg);
+				}
 			}
 		}
 		
