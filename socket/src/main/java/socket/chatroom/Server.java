@@ -39,11 +39,14 @@ public class Server {
 		private DataInputStream in;
 		private DataOutputStream out;
 		boolean isRunning = true;
-
+		private String name;
 		public MyChannel(Socket socket) {
 			try {
 				in = new DataInputStream(socket.getInputStream());
 				out = new DataOutputStream(socket.getOutputStream());
+				name = in.readUTF();
+				this.sendOthers(name + "进入聊天室");
+				this.send("欢迎进入聊天室");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				// e.printStackTrace();
@@ -84,13 +87,13 @@ public class Server {
 
 		public void sendOthers(String msg)
 		{
-			for (MyChannel obj : container)
+			for (MyChannel other : container)
 			{
-				if (this == obj)
+				if (this == other)
 				{
 					continue;
 				}
-				obj.send(msg);
+				other.send(msg);
 			}
 		}
 		
