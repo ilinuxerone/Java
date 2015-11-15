@@ -45,7 +45,7 @@ public class Server {
 				in = new DataInputStream(socket.getInputStream());
 				out = new DataOutputStream(socket.getOutputStream());
 				name = in.readUTF();
-				this.sendOthers(name + "进入聊天室");
+				this.sendOthers(name + "进入聊天室", true);
 				this.send("欢迎进入聊天室");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -85,7 +85,7 @@ public class Server {
 			return msg;
 		}
 
-		public void sendOthers(String msg)
+		public void sendOthers(String msg, boolean isSys)
 		{
 			String name;
 			String content;
@@ -101,7 +101,17 @@ public class Server {
 					}
 					other.send(this.name + "悄悄对您说：" + content);
 				}
-			}else {
+			}else if (true == isSys)
+			{
+				for (MyChannel other : container) {
+					if (this == other) {
+						continue;
+					}
+					other.send("系统消息： " + msg);
+				}
+			}
+			
+			else {
 				for (MyChannel other : container) {
 					if (this == other) {
 						continue;
@@ -116,7 +126,7 @@ public class Server {
 			// TODO Auto-generated method stub
 			while (isRunning) {
 			//	send(receive());
-				sendOthers(receive());
+				sendOthers(receive(), false);
 			}
 		}
 
