@@ -1,0 +1,66 @@
+一 概念
+流：从一端流向另一端 
+源：内存、文件、数据库、网络数据
+
+二 IO流分类
+1.流向：数据流 与输出流
+2.数据：字节流：二进制，可以一切文件，包括纯文本 doc 音频 视屏等
+                字符流：文本文件，只能出来文本
+3.功能:  节点流：包裹源头
+                    处理流：增强功能
+三 字符流与字节流
+1.字节流
+  InputStream
+     FileInputStream
+  OutputStream
+     FileOutputStream
+2.字符流
+  Reader
+     FileReader
+  Writer
+     FileWriter
+四 处理流
+1.缓冲流
+
+2.转换流     
+编码：字符转字节
+解码：字节转字符
+五.其他流
+1.字节数组
+数组长度有限，数据量不会很大
+2.基本数据类型流
+ DataInputStream
+ DataOutputStream
+3.引用类型流
+ObjectInputStream
+ObjectOutputSream
+4.打印流
+PrintStream
+Scanner
+
+三个常量：
+System.in
+System.out
+System.err
+重定向：
+System.setIn()
+System.setOut()
+System.setErr()
+
+FileDescriptor.in
+FileDescriptor.out
+FileDescriptor.err
+
+1.实现文件的拷贝
+2.文件夹拷贝
+3.文件下载与上传
+4.执行远程shell命令
+5.文件分割与合并
+6.文件压缩与解压
+7.文件加密与解密
+8.Properties文件工具类
+9.xml文件解析
+
+
+
+ 
