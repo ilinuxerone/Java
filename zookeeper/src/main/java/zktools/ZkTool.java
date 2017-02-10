@@ -13,8 +13,13 @@ public class ZkTool {
 	// 工具信息
 	private final static String TOOL_NAME = "ZooKeeper工具 ";
 	private final static String TOOL_VERSION = "V0.1";
+<<<<<<< HEAD
 	private final static String TOOL_AUTHOR = "zzh";
 	private final static String TOOL_COPYRIGHT = "©2016版权所有";
+=======
+	private final static String TOOL_AUTHOR = "Jason Chen";
+	private final static String TOOL_COPYRIGHT = "©2012 Jason 版权所有";
+>>>>>>> 4fbec66ba115a995a231cb3f63e4e4fda4613626
 
 	// 相关命令编号
 	private final static int ACTION_QUERY = 1;
