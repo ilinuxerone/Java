@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/XML/Dom/Dom.iml" filepath="$PROJECT_DIR$/XML/Dom/Dom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPC/IPC.iml" filepath="$PROJECT_DIR$/IPC/IPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPC/IPCClient/IPCClient.iml" filepath="$PROJECT_DIR$/IPC/IPCClient/IPCClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResourceLoader/ResourceLoader.iml" filepath="$PROJECT_DIR$/ResourceLoader/ResourceLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPC/Rmi/Rmi.iml" filepath="$PROJECT_DIR$/IPC/Rmi/Rmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot/SpringBoot.iml" filepath="$PROJECT_DIR$/Springboot/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService/WebService.iml" filepath="$PROJECT_DIR$/WebService/WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restfuldemo/restfuldemo.iml" filepath="$PROJECT_DIR$/restfuldemo/restfuldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structs/structs.iml" filepath="$PROJECT_DIR$/structs/structs.iml" />
+    </modules>
+  </component>
+</project>

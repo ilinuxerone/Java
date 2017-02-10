@@ -6,7 +6,7 @@
 		<artifactId>Java</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>zookeeper</artifactId>
+	<artifactId>zKtool</artifactId>
 
 	<dependencies>
 <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->

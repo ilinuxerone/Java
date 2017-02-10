@@ -17,9 +17,8 @@
     <module>annotation</module>
     <module>socket</module>
     <module>IO</module>
-    <module>structs</module>
-    <module>ResourceLoader</module>
-    <module>zKtool</module>
+    <module>restfuldemo</module>
+		<module>common</module>
 	</modules>
 
 	<properties>
