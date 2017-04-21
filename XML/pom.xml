@@ -24,5 +24,6 @@
   </dependencies>
   <modules>
     <module>Dom</module>
+    <module>jaxbdemo</module>
   </modules>
 </project>
