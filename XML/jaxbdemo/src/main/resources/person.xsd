@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="d">
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element ref="person"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="person" type="metadata">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="metadata">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="attId" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="entityId" type="xs:string"/>
+		<xs:attribute name="sourceType" type="xs:string"/>
+		<xs:attribute name="uri" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>
