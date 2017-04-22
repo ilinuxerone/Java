@@ -1,26 +1,31 @@
 /**
  * Created by Administrator on 2017/4/21.
  */
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
+import java.util.Set;
+
 
 @XmlRootElement
-public class Customer {
-    String name;
+@XmlType(propOrder = { "id", "name", "age", "book"})
+public class Customer<T> {
+    String[] names;
     int age;
     int id;
-    public String getName() {
-        return name;
+   // T t;
+   Set<Book> book;
+
+    public String[] getName() {
+        return names;
     }
+    @XmlElementWrapper(name = "names")
     @XmlElement
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String[] names) {
+        this.names = names;
     }
     public int getAge() {
         return age;
     }
-    @XmlElement
+
     public void setAge(int age) {
         this.age = age;
     }
@@ -31,8 +36,27 @@ public class Customer {
     public void setId(int id) {
         this.id = id;
     }
+
+/*    public T getT() {
+        return t;
+    }
+
+    public void setT(T t) {
+        this.t = t;
+    }*/
+
+    @XmlElementWrapper(name="books")
+    @XmlElement(name="book")
+    public Set<Book> getBook() {
+        return book;
+    }
+
+    public void setBook(Set<Book> book) {
+        this.book = book;
+    }
+
     @Override
     public String toString() {
-        return "Customer [name=" + name + ", age=" + age + ", id=" + id + "]";
+        return "Customer [name=" + names + ", age=" + age + ", id=" + id + "]";
     }
 }
