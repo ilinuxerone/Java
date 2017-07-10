@@ -18,14 +18,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
         <module name="annotation" />
         <module name="common" />
+        <module name="dbapp1" />
         <module name="Dom" />
         <module name="IO" />
         <module name="IPCClient" />
         <module name="jaxbdemo" />
         <module name="restfuldemo" />
         <module name="Rmi" />
+        <module name="SimpleDatabaseSystem" />
         <module name="socket" />
         <module name="Thread" />
         <module name="WebService" />
@@ -38,8 +41,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="1.7" />
       <module name="annotation" target="1.7" />
       <module name="common" target="1.7" />
+      <module name="dbapp1" target="1.7" />
       <module name="Dom" target="1.5" />
       <module name="IO" target="1.7" />
       <module name="IPC" target="1.7" />
@@ -49,6 +54,7 @@
       <module name="ResourceLoader" target="1.7" />
       <module name="restfuldemo" target="1.7" />
       <module name="Rmi" target="1.7" />
+      <module name="SimpleDatabaseSystem" target="1.7" />
       <module name="socket" target="1.7" />
       <module name="SpringBoot" target="1.7" />
       <module name="structs" target="1.7" />

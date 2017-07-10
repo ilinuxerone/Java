@@ -19,7 +19,10 @@
     <module>IO</module>
     <module>restfuldemo</module>
 		<module>common</module>
-	</modules>
+        <module>SimpleDatabaseSystem</module>
+        <module>dbapp1</module>
+        <module>algorithm</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

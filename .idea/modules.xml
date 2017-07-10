@@ -9,9 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/ResourceLoader/ResourceLoader.iml" filepath="$PROJECT_DIR$/ResourceLoader/ResourceLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/IPC/Rmi/Rmi.iml" filepath="$PROJECT_DIR$/IPC/Rmi/Rmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleDatabaseSystem/SimpleDatabaseSystem.iml" filepath="$PROJECT_DIR$/SimpleDatabaseSystem/SimpleDatabaseSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot/SpringBoot.iml" filepath="$PROJECT_DIR$/Springboot/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/WebService.iml" filepath="$PROJECT_DIR$/WebService/WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" filepath="$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" />
