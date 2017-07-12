@@ -22,6 +22,7 @@
         <module>SimpleDatabaseSystem</module>
         <module>dbapp1</module>
         <module>algorithm</module>
+        <module>designpattern</module>
     </modules>
 
 	<properties>

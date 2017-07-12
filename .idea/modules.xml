@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" filepath="$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/restfuldemo/restfuldemo.iml" filepath="$PROJECT_DIR$/restfuldemo/restfuldemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />

@@ -22,6 +22,7 @@
         <module name="annotation" />
         <module name="common" />
         <module name="dbapp1" />
+        <module name="designpattern" />
         <module name="Dom" />
         <module name="IO" />
         <module name="IPCClient" />
@@ -45,6 +46,7 @@
       <module name="annotation" target="1.7" />
       <module name="common" target="1.7" />
       <module name="dbapp1" target="1.7" />
+      <module name="designpattern" target="1.7" />
       <module name="Dom" target="1.5" />
       <module name="IO" target="1.7" />
       <module name="IPC" target="1.7" />
