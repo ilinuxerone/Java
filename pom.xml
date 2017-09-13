@@ -20,10 +20,10 @@
     <module>restfuldemo</module>
 		<module>common</module>
         <module>SimpleDatabaseSystem</module>
-        <module>dbapp1</module>
+      <!--  <module>dbapp1</module>-->
         <module>algorithm</module>
-        <module>designpattern</module>
-    </modules>
+		<module>learnspring</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

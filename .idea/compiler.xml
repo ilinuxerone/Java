@@ -22,11 +22,11 @@
         <module name="annotation" />
         <module name="common" />
         <module name="dbapp1" />
-        <module name="designpattern" />
         <module name="Dom" />
         <module name="IO" />
         <module name="IPCClient" />
         <module name="jaxbdemo" />
+        <module name="learnspring" />
         <module name="restfuldemo" />
         <module name="Rmi" />
         <module name="SimpleDatabaseSystem" />
@@ -53,6 +53,7 @@
       <module name="IPCClient" target="1.7" />
       <module name="Java" target="1.7" />
       <module name="jaxbdemo" target="1.5" />
+      <module name="learnspring" target="1.7" />
       <module name="ResourceLoader" target="1.7" />
       <module name="restfuldemo" target="1.7" />
       <module name="Rmi" target="1.7" />
