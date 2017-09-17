@@ -13,6 +13,7 @@
       <set>
         <option value="$PROJECT_DIR$/XML/pom.xml" />
         <option value="$PROJECT_DIR$/designpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/learnjpa/pom.xml" />
       </set>
     </option>
   </component>

@@ -17,9 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" filepath="$PROJECT_DIR$/XML/jaxbdemo/jaxbdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/jpa.iml" filepath="$PROJECT_DIR$/learnspring/src/main/java/jpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnspring/learnspring.iml" filepath="$PROJECT_DIR$/learnspring/learnspring.iml" />
       <module fileurl="file://$PROJECT_DIR$/restfuldemo/restfuldemo.iml" filepath="$PROJECT_DIR$/restfuldemo/restfuldemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnspring/springjpa.iml" filepath="$PROJECT_DIR$/learnspring/springjpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/structs/structs.iml" filepath="$PROJECT_DIR$/structs/structs.iml" />
     </modules>
   </component>

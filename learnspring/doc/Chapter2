@@ -1,0 +1,10 @@
+Spring  JPA
+
+
+. @EnableJpaRepositories
+   等效于XML配置文件中的：
+   <jpa:repositories base-package="****"/>
+
+. @Transactional
+  如果注解上只写 @Transactional  默认只对 RuntimeException 回滚，而非 Exception 进行回滚
+* 如果要对 checked Exceptions 进行回滚，则需要 @Transactional(rollbackFor = Exception.class)

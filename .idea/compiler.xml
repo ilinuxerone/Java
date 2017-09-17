@@ -26,6 +26,7 @@
         <module name="IO" />
         <module name="IPCClient" />
         <module name="jaxbdemo" />
+        <module name="jpa" />
         <module name="learnspring" />
         <module name="restfuldemo" />
         <module name="Rmi" />
@@ -53,6 +54,8 @@
       <module name="IPCClient" target="1.7" />
       <module name="Java" target="1.7" />
       <module name="jaxbdemo" target="1.5" />
+      <module name="jpa" target="1.7" />
+      <module name="learnjpa" target="1.7" />
       <module name="learnspring" target="1.7" />
       <module name="ResourceLoader" target="1.7" />
       <module name="restfuldemo" target="1.7" />
@@ -60,6 +63,7 @@
       <module name="SimpleDatabaseSystem" target="1.7" />
       <module name="socket" target="1.7" />
       <module name="SpringBoot" target="1.7" />
+      <module name="springjpa" target="1.7" />
       <module name="structs" target="1.7" />
       <module name="Thread" target="1.7" />
       <module name="WebService" target="1.7" />

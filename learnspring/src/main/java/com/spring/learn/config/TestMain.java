@@ -10,6 +10,7 @@ public class TestMain {
     public static void main(String[] args) {
 
         //@Configuration注解的spring容器加载方式，用AnnotationConfigApplicationContext替换ClassPathXmlApplicationContext
+       // ApplicationContext context = new AnnotationConfigApplicationContext(ConfigContext.class);
         ApplicationContext context = new AnnotationConfigApplicationContext(TestAutoConfiguration.class);
         //获取bean
         //TestBean tb = (TestBean) context.getBean("testBean");

@@ -1,13 +1,46 @@
-常用注解：
+Chapter 常用注解：
 
-@Configuration
+1 @Configuration
     Configuration标注在类上，相当于把该类作为spring的xml配置文件中的<beans>，作用为：配置spring容器(应用上下文)
-@Bean
+2 @Bean
     Bean标注在方法上(返回某个实例的方法)，等价于spring的xml配置文件中的<bean>，作用为：注册bean对象
     Bean注解在返回实例的方法上，如果未通过@Bean指定bean的名称，则默认与标注的方法名相同；
      //@Bean注解注册bean,同时可以指定初始化和销毁方法
     //@Bean(name="testNean",initMethod="start",destroyMethod="cleanUp")
     @Bean注解默认作用域为单例singleton作用域，可通过@Scope(“prototype”)设置为原型作用域；
 
-既然@Bean的作用是注册bean对象，那么完全可以使用@Component、@Controller、@Service、@Ripository等注解注册bean，
-当然需要配置@ComponentScan注解进行自动扫描。
+3 @ComponentScan
+   **context:component-scan与@ComponentScan注解等效
+   既然@Bean的作用是注册bean对象，那么完全可以使用@Component、@Controller、@Service、@Ripository等注解注册bean，
+当然需要配置@ComponentScan注解进行自动扫描,
+
+
+4 @Autowired可以对成员变量、方法和构造函数进行标注，来完成自动装配的工作。
+  @Autowire类似bean配置文件中的ref属性。
+  可结合@Qualifier使用
+  与@Resource注解区别：
+  @Autowired的标注位置不同，它们都会在Spring在初始化这个bean时，自动装配这个属性。注解之后就不需要set/get方法了。
+    在基于主机方式配置Spring时,Spring配置文件applicationContext.xml,你可能会见<context:annotation-config/>这样一条配置，它的作用是隐式的向Spring容器注册
+ AutowiredAnnotationBeanPostProcessor,
+ CommonAnnotationBeanPostProcessor,
+ PersistenceAnnotationBeanPostProcessor,
+ RequiredAnnotationBeanPostProcessor
+ 这4个BeanPostProcessor.注册这4个bean处理器主要的作用是为了你的系统能够识别相应的注解。
+ 例如：
+ 如果想使用@Autowired注解，需要在Spring容器中声明AutowiredAnnotationBeanPostProcessor Bean。传统的声明方式：<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+如果想使用@PersistenceContext注解，需要在Spring容器中声明PersistenceAnnotationBeanPostProcessor Bean。传统的声明：<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+如果想使用@Required注解，需要在Spring容器中声明RequiredAnnotationBeanPostProcessor Bean。传统声明方式：<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+如果想使用@Resource、@ PostConstruct、@ PreDestroy等注解就必须声明CommonAnnotationBeanPostProcessor。传统申明方式： <bean class="org.springframework.beans.factory.annotation.CommonAnnotationBeanPostProcessor"/>
+所以，如果按照传统声明一条一条去声明注解Bean，就会显得十分繁琐。
+因此如果在Spring的配置文件中事先加上<context:annotation-config/>这样一条配置的话，那么所有注解的传统声明就可以被 忽略，即不用在写传统的声明，Spring会自动完成声明。
+<context:component-scan base-package="com.xx.xx" /
+   <context:component-scan/>的作用是让Bean定义注解工作起来,也就是上述传统声明方式。 它的base-package属性指定了需要扫描的类包，类包及其递归子包中所有的类都会被处理。
+ 值得注意的是<context:component-scan/>不但启用了对类包进行扫描以实施注释驱动 Bean 定义的功能，同时还启用了注释驱动自动注入的功能（即还隐式地在内部注册了 AutowiredAnnotationBeanPostProcessor 和  CommonAnnotationBeanPostProcessor），
+ 因此当使用 <context:component-scan/> 后，就可以将 <context:annotation-config/> 移除了。
+
+5 @PropertySource
+
+6 @ClassPathXmlApplicationContext
+  @AnnotationConfigApplication
+
+

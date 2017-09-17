@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>learnspring</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>src/main/java/jpa</module>
+    </modules>
 
 
     <dependencies>
