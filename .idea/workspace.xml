@@ -2,79 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d87e678-be43-4d04-884c-18f947b2edf4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_21_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_21_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_1_8_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/doc/Chapter2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/springjpa.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/propertySource/AppConfigUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/propertySource/InitCustomizeUrlConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/propertySource/SimpleDataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/propertySource/TestPropSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/jpa.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/domain/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/repository/ClassicUserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/repository/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/repository/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/TestMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/test/java.jpa.repo/JpaRepoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/test/resources/jpa.repo/JpaRepoTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/resources/conf/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/JPATest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ResourceLoader/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Springboot/SpringBoot.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/spring/spring-context.xml.tld" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/learnspring/target/classes/config/ConfigContext.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/learnspring/target/classes/config/TestMain.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/learnspring/target/classes/config/spring/spring-context.xml.tld" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/structs.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/ConfigContext.class" afterPath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/ConfigContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/TestAutoConfiguration.class" afterPath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/TestAutoConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/TestMain.class" afterPath="$PROJECT_DIR$/learnspring/target/classes/com/spring/learn/config/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/doc/Chapter1" afterPath="$PROJECT_DIR$/learnspring/doc/Chapter1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/learnspring.iml" afterPath="$PROJECT_DIR$/learnspring/learnspring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/pom.xml" afterPath="$PROJECT_DIR$/learnspring/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/ConfigContext.java" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/ConfigContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/TestAutoConfiguration.java" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/TestAutoConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/TestMain.java" afterPath="$PROJECT_DIR$/learnspring/src/main/java/com/spring/learn/config/TestMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnspring/src/main/resources/com/spring/learn/config/spring/spring-context.xml.tld" afterPath="$PROJECT_DIR$/learnspring/src/main/resources/com/spring/learn/config/spring/spring-context.xml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,139 +61,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/domain/User.java">
+      <file leaf-file-name="JPATest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/JPATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/domain/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/repository/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1095#1125#0" expanded="true" />
-                <marker date="1505607441503" expanded="true" signature="1425:1464" ph="select t.id tb_task" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/doc/Chapter2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence_2_0.xsd" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence_2_0.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="168" column="14" lean-forward="false" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
+                <marker date="1505657762826" expanded="true" signature="3862:3903" ph="SELECT age F... jpa_cutomers" />
               </folding>
             </state>
           </provider>
@@ -303,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dbapp1/src/main/java/src/com/util/comm/Tools.java" />
         <option value="$PROJECT_DIR$/dbapp1/src/main/java/src/com/utitl/check/Checker.java" />
         <option value="$PROJECT_DIR$/dbapp1/src/main/java/src/com/ht/ser/Operator.java" />
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
@@ -354,6 +161,7 @@
         <option value="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/Main.java" />
         <option value="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/domain/Customer.java" />
         <option value="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/TestMain.java" />
+        <option value="$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/JPATest.java" />
       </list>
     </option>
   </component>
@@ -1059,11 +867,11 @@
       <recent name="E:\Workspace\Java\XML\Dom\src\main\java\resource" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workspace\Java\learnspring\src\main\java\jpa\src\main\java\jpa\test" />
       <recent name="E:\Workspace\Java\learnspring\src\main\java\jpa\src\test\java.jpa.repo" />
       <recent name="E:\Workspace\Java\designpattern\src\main\java\contruct" />
       <recent name="E:\Workspace\Java\dbapp1\src\main\java\src" />
       <recent name="E:\Workspace\Java\SimpleDatabaseSystem\src\main\resources\conf" />
-      <recent name="E:\Workspace\Java\SimpleDatabaseSystem\src\main\java\app" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestMain (1)">
@@ -1954,15 +1762,15 @@
       <workItem from="1500562801695" duration="37000" />
       <workItem from="1500821589171" duration="6345000" />
       <workItem from="1505303377691" duration="5620000" />
-      <workItem from="1505397602687" duration="18020000" />
+      <workItem from="1505397602687" duration="18133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84102000" />
+    <option name="totallyTimeSpent" value="84215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1990,7 +1798,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20376712" sideWeight="0.8880484" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -2035,13 +1843,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/search/SearchUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -2467,9 +2268,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="200">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnspring/src/main/java/jpa/src/main/java/jpa/test/JPATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505657762826" expanded="true" signature="3862:3903" ph="SELECT age F... jpa_cutomers" />
+          </folding>
         </state>
       </provider>
     </entry>
