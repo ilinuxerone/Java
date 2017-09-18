@@ -1,3 +1,4 @@
+/*
 package jpa.test;
 
 import java.util.Date;
@@ -71,9 +72,11 @@ public class JPATest {
 		System.out.println(orders.size());
 	}
 	
-	/**
+	*/
+/**
 	 * JPQL �Ĺ�����ѯͬ HQL �Ĺ�����ѯ. 
-	 */
+	 *//*
+
 	@Test
 	public void testLeftOuterJoinFetch(){
 		String jpql = "FROM Customer c LEFT OUTER JOIN FETCH c.orders WHERE c.id = ?";
@@ -331,7 +334,8 @@ public class JPATest {
 		entityManager.persist(order2);
 	}
 	
-	/*
+	*/
+/*
 	@Test
 	public void testManyToOneUpdate(){
 		Order order = entityManager.find(Order.class, 2);
@@ -357,12 +361,16 @@ public class JPATest {
 		
 		System.out.println(order.getCustomer().getLastName());
 	}
-	*/
+	*//*
+
 	
-	/**
+	*/
+/**
 	 * ������һʱ, �����ȱ��� 1 ��һ��, �󱣴� n ��һ��, ��������������� UPDATE ���.
-	 */
-	/*
+	 *//*
+
+	*/
+/*
 	@Test
 	public void testManyToOnePersist(){
 		Customer customer = new Customer();
@@ -388,11 +396,14 @@ public class JPATest {
 		
 		entityManager.persist(customer);
 	}
-	*/
+	*//*
+
 	
-	/**
+	*/
+/**
 	 * ͬ hibernate �� Session �� refresh ����. 
-	 */
+	 *//*
+
 	@Test
 	public void testRefresh(){
 		Customer customer = entityManager.find(Customer.class, 1);
@@ -401,9 +412,11 @@ public class JPATest {
 		entityManager.refresh(customer);
 	}
 	
-	/**
+	*/
+/**
 	 * ͬ hibernate �� Session �� flush ����. 
-	 */
+	 *//*
+
 	@Test
 	public void testFlush(){
 		Customer customer = entityManager.find(Customer.class, 1);
@@ -478,9 +491,11 @@ public class JPATest {
 		System.out.println("customer2#id:" + customer2.getId());
 	}
 	
-	/**
+	*/
+/**
 	 * �ܵ���˵: ������ hibernate Session �� saveOrUpdate ����.
-	 */
+	 *//*
+
 	//1. ���������һ����ʱ����
 	//�ᴴ��һ���µĶ���, ����ʱ��������Ը��Ƶ��µĶ�����, Ȼ����µĶ���ִ�г־û�����. ����
 	//�µĶ������� id, ����ǰ����ʱ������û�� id. 
@@ -549,3 +564,4 @@ public class JPATest {
 	}
 
 }
+*/

@@ -23,7 +23,6 @@
       <!--  <module>dbapp1</module>-->
         <module>algorithm</module>
 		<module>learnspring</module>
-        <module>learnjpa</module>
     </modules>
 
 	<properties>
